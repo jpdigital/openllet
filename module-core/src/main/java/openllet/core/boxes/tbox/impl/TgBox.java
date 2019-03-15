@@ -55,12 +55,7 @@ public class TgBox extends TBoxBase
 {
 	public static final Logger _subLogger = Log.getLogger(TgBox.class);
 
-	static
-	{
-		_subLogger.setParent(_logger);
-	}
-
-	private Set<ATermAppl> _explanation;
+		private Set<ATermAppl> _explanation;
 
 	// universal concept
 	private List<Unfolding> UC = null;
